@@ -1100,5 +1100,12 @@ hr {
 .location {
     height:200px;
 }
+.home-img {
+    height:25%;
+    
+}
+.intro-container{
+    justify-content: space-evenly;
+}
 
 }
