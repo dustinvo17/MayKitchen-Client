@@ -119,3 +119,9 @@ function modalEffect(tl,name,price,imgSrc){
 
    
 }
+function handleBurgerClicked(){
+    const burger = $('.hamburger')
+    burger.on('click',function(){
+        $('.nav-bar').toggleClass('nav-open')
+    })
+}
