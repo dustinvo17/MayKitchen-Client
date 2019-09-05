@@ -87,7 +87,8 @@ function slideInit(tl){
        const mainChildren = $('main').children()
     const main = $('main')
      
-    tl.from(main,0.5,{x:'-100%'})
+    tl.to(main,0.5,{opacity:1})
+    .from(main,0.5,{x:'-150%'})
     .from(main,1,{height:'1px'})
     .from(mainChildren,1,{opacity:0})
 }
