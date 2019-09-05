@@ -275,10 +275,11 @@ main {
     width: 100%;
     height: 170px;
     object-fit: cover;
-     filter: brightness(70%);
-    border-radius: 5px;
+    filter: brightness(70%);
     cursor: pointer;
-    box-shadow:0 10px 10px rgba(0,0,0,0.8);
+     box-shadow:0 5px 10px rgba(0,0,0,0.2);
+    
+   
 }
 .item-img:hover{
       filter: brightness(120%);
@@ -456,6 +457,7 @@ main {
     height:70%;
     object-fit: center;
      box-shadow:0 5px 10px rgba(0,0,0,0.2);
+    
 
     border-radius:3px;
     
